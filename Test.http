@@ -1,0 +1,26 @@
+PUT http://localhost:8080/samples/1
+Content-Type: application/json
+
+{
+  "name": "sample2",
+  "date": "2022-07-04T11:00:00"
+}
+
+###
+POST http://localhost:8080/samples
+Content-Type: application/json
+
+{
+  "name": "sample",
+  "date": "2021-07-04T12:00:00"
+}
+
+
+###
+GET http://localhost:8080/samples
+Accept: application/json
+
+###
+
+DELETE http://localhost:8080/samples/2
+Accept: application/json
